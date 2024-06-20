@@ -1,0 +1,69 @@
+.main {
+    height: 100vh;
+}
+
+.main-nav {
+    background-color: aquamarine;
+}
+
+.sidebar {
+    background-color: rgb(58, 62, 62);
+    color: whitesmoke;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar li {
+    padding: 15px;
+}
+
+.sidebar a {
+    color: wheat;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
+
+.sidebar a:hover {
+    background-color: rgb(3, 121, 128);
+}
+
+.card-data{
+    border: solid 1px;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+.card-data i{
+    font-size: 100px;
+
+}
+
+.card-data.user{
+ background-color: olivedrab;
+}
+.card-data.categories{
+ background-color: orange;
+}
+
+.card-isi{
+    font-size: 40px;
+}
+.card-count{
+    font-size: 30px;
+}
+
+
+.bg-success {
+    background-color: #d4edda;
+    /* Warna hijau muda untuk pengembalian tepat waktu */
+    color: #155724;
+}
+
+.bg-danger {
+    background-color: #f8d7da;
+    /* Warna merah muda untuk pengembalian terlambat */
+    color: #721c24;
+}
