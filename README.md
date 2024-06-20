@@ -42,4 +42,3 @@ Cara mengisi Databasesnya
 3. lalu setelah di buat login dengan kata useraname dan kata sandi
 4. setelah itu Admin bisa Akses semua fitur
 
-             T
