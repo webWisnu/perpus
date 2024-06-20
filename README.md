@@ -5,7 +5,7 @@
 
 1. Clone repository
     ```bash
-    git clone https://github.com/username/nama-proyek.git
+    git clone https://github.com/webWisnu/perpus.git
     cd nama-proyek
     ```
 
