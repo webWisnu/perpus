@@ -28,11 +28,13 @@
     ```bash
     php artisan migrate
     ```
-6.php artisan db:seed --class=RoleSeeder
-
 7. Jalankan migrasi database seeder 
     ```bash
- php artisan db:seed --class=CategorySeeder
+    php artisan db:seed --class=RoleSeeder
+    ```
+7. Jalankan migrasi database seeder 
+    ```bash
+    php artisan db:seed --class=CategorySeeder
     ```
 
 8. Jalankan server
