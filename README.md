@@ -39,21 +39,33 @@
    php artisan db:seed --class=DatabaseSeeder
 
     ```
+8. Jalankan migrasi database seeder untuk membuat data dummy di table users
+    ```bash
+   php artisan db:seed --class=CategorySeeder
 
-8. Jalankan File Storage
+
+    ```
+
+9. Jalankan File Storage
     ```bash
     php artisan storage:link
 
     ```
-9. Jalankan server
+10. Jalankan server
     ```bash
     php artisan serve
     ```
-10. User Role
-    ```bash
-    Role 1 = Admin
-    Role 2 = user
-    ```
+    
+Menentukan Peran Pengguna
+
+ - Role 1 = Admin
+ - Role 2 = user
+
+Perbarui status warna pengembalian buku di halaman detail
+
+- Jika buku dikembalikan tepat waktu, halaman detail buku akan menampilkan warna hijau.
+- Jika buku dikembalikan terlambar, halaman detail buku akan menampilkan warna merah.
+
 
 
 
