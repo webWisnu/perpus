@@ -97,7 +97,7 @@ class BookrentController extends Controller
 
             Session::flash('message', 'selamat buku berhasil kembali');
             Session::flash('alert-class', 'alert-success');
-            return redirect('book-rent');
+            return redirect('book-return');
         } else {
             Session::flash('message', 'Anda tidak pernah meminjam  Buku ini silahkan kembalikan buku yang benar');
             Session::flash('alert-class', 'alert-danger');
