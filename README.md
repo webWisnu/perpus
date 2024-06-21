@@ -52,6 +52,11 @@
     ```bash
     php artisan serve
     ```
+11. User Role
+    ```bash
+    Role 1 = Admin
+    Role 2 = user
+    ```
 
 
 
