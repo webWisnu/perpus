@@ -28,8 +28,12 @@
     ```bash
     php artisan migrate
     ```
+6. Jalankan migrasi database seeder
+    ```bash
+    php artisan seedeer
+    ```
 
-6. Jalankan server
+7. Jalankan server
     ```bash
     php artisan serve
     ```
