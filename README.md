@@ -39,7 +39,7 @@
    php artisan db:seed --class=DatabaseSeeder
 
     ```
-8. Jalankan migrasi database seeder untuk membuat data dummy di table users
+8. Jalankan migrasi database seeder untuk membuat data dummy di table category
     ```bash
    php artisan db:seed --class=CategorySeeder
 
