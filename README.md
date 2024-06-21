@@ -28,31 +28,32 @@
     ```bash
     php artisan migrate
     ```
-6. Jalankan migrasi database seeder 
+6. Jalankan migrasi database seeder untuk membuat data dummy di table role
     ```bash
     php artisan db:seed --class=RoleSeeder
     ```
     
-7. Jalankan migrasi database seeder 
+7. Jalankan migrasi database seeder untuk membuat data dummy di table Category
     ```bash
     php artisan db:seed --class=CategorySeeder
     ```
+8. Jalankan migrasi database seeder untuk membuat data dummy di table users
+    ```bash
+   php artisan db:seed --class=DatabaseSeeder
 
-8. Jalankan File Storage
+    ```
+
+9. Jalankan File Storage
     ```bash
     php artisan storage:link
 
     ```
-9. Jalankan server
+10. Jalankan server
     ```bash
     php artisan serve
     ```
 
 
 
-Cara mengisi Databasesnya
-1. isi table role manual lewat phpmyadmin role id 1 Adalah Admin dan Role id 2 adalah user
-2. setelah itu isi table users dengan nama admin dan role id 1
-3. lalu setelah di buat login dengan kata useraname dan kata sandi
-4. setelah itu Admin bisa Akses semua fitur
+                     
 
