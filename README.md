@@ -33,26 +33,23 @@
     php artisan db:seed --class=RoleSeeder
     ```
     
-7. Jalankan migrasi database seeder untuk membuat data dummy di table Category
-    ```bash
-    php artisan db:seed --class=CategorySeeder
-    ```
-8. Jalankan migrasi database seeder untuk membuat data dummy di table users
+
+7. Jalankan migrasi database seeder untuk membuat data dummy di table users
     ```bash
    php artisan db:seed --class=DatabaseSeeder
 
     ```
 
-9. Jalankan File Storage
+8. Jalankan File Storage
     ```bash
     php artisan storage:link
 
     ```
-10. Jalankan server
+9. Jalankan server
     ```bash
     php artisan serve
     ```
-11. User Role
+10. User Role
     ```bash
     Role 1 = Admin
     Role 2 = user
