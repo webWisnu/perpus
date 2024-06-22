@@ -20,7 +20,7 @@ class CategorySeeder extends Seeder
 
 
         $data = [
-            ' komik', 'novel', 'fantasy', 'Bahasa Pemograman', 'sejarah', 'Horor'
+            ' komik', 'novel',   'sejarah', 'Horor'
         ];
 
         foreach ($data as $key) {
