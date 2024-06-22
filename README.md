@@ -64,7 +64,7 @@ Menentukan Peran Pengguna
 Perbarui status warna pengembalian buku di halaman detail
 
 - Jika buku dikembalikan tepat waktu, halaman detail buku akan menampilkan warna hijau.
-- Jika buku dikembalikan terlambar, halaman detail buku akan menampilkan warna merah.
+- Jika buku dikembalikan terlambats, halaman detail buku akan menampilkan warna merah.
 
 
 
