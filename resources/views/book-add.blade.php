@@ -37,12 +37,16 @@
 
             <div>
                 <label for="category" class="form-label">Category</label>
-                <select name="categories[]" id="category" class="form-control select-multipe" multiple>Pilih Category
+                <select> Pilih Category
+                     <select name="categories[]" id="category" class="form-control select-multipe" multiple>
                     <option value=""></option>
                     @foreach ($category as $item)
                         <option value="{{ $item->id }}">{{ $item->name }}</option>
                     @endforeach
                 </select>
+                    
+                </select>
+               
             </div>
             <div class="mt-3">
                 <button class="btn btn-success" type="submit">Save Data</button>
