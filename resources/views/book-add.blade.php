@@ -35,7 +35,7 @@
                 <input type="file" name="image" id="image" class="form-control" placeholder="upload file image">
             </div>
 
-            <div>
+            <div class="mt-3">
                 <label for="category" class="form-label">Pilih Category</label>
         
                      <select name="categories[]" id="category" class="form-control select-multipe" multiple>
