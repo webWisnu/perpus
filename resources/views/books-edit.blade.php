@@ -57,8 +57,8 @@
 
             <div>
                 <label for="category" class="form-label">Category</label>
-                <select name="categories[]" id="category" class="form-control select-multipe" multiple>
-                    <option value="">Pilih Category</option>
+                <select name="categories[]" id="category" class="form-control select-multipe" multiple>Pilih Category
+                    <option value=""></option>
                     @foreach ($categories as $item)
                         <option value="{{ $item->id }}">{{ $item->name }}</option>
                     @endforeach
