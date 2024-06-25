@@ -38,7 +38,7 @@
             <div class="mt-3">
                 <label for="category" class="form-label">Pilih Category</label>
         
-                     <select name="categories[]" id="category" class="form-control select-multipe" multiple placeholder="Pilihan Category">
+                     <select name="categories[]" id="category" class="form-control select-multipe" multiple ">
                     <option value=""></option>
                     @foreach ($category as $item)
                         <option value="{{ $item->id }}">{{ $item->name }}</option>
