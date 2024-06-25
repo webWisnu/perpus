@@ -55,8 +55,8 @@
 
             </div>
 
-            <div>
-                <label for="category" class="form-label">Category</label>
+            <div class="mt-3">
+                <label for="category" class="form-label">pilih Category</label>
                 <select name="categories[]" id="category" class="form-control select-multipe" multiple>Pilih Category
                     <option value=""></option>
                     @foreach ($categories as $item)
